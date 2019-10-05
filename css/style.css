@@ -48,7 +48,7 @@ p {
 	text-decoration:none;
 	}
 .site-navigation a:hover,
-.nav-footer a:hover{dispay: table; text-decoration:none; border-bottom: 1px solid #990000;}
+.nav-footer a:hover{text-decoration:none; border-bottom: 1px solid #990000;}
 
 .site-navigation a:visited,
 .nav-footer a:visited{text-decoration:none;}
@@ -139,8 +139,14 @@ p {
   /*background: #80C8A0;
   color: white;*/
   color:#CC0033;
-  
-  
 }
 
-
+/*сетки*/
+html,
+body {
+  min-width: 1000px;
+  min-height: 1500px;
+}
+.main-header {
+  min-height: 400px;
+}
