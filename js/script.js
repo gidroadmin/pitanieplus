@@ -21,3 +21,15 @@ $(function(){
 
     });
 })
+
+$(function(){
+    $('.img-search').on('click', function(){
+
+        $('.search').slideToggle(300, function(){
+            if($(this).css('display') === 'none'){
+                $(this).removeAttr('style');
+            }
+        });
+
+    });
+})
