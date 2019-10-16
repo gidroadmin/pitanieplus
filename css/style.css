@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 8427743d73d1176dabf064c964ccaf62833ef596
 body{
     margin: 0px 0px 10px 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -72,11 +68,11 @@ body{
 	font-size:13px;
     line-height: 20px;
 }
-.li-home {list-style-image:url(../img/house.png);}
-.li-contacts {list-style-image:url(../img/email_edit.png);}
-.li-map{list-style-image:url(../img/zoom.png);}
-.li-rss{list-style-image:url(../img/feed.png); word-wrap: none;}
-.li-email{list-style-image:url(../img/feed_email.png);}
+.li-home {list-style-image:url(../images/house.png);}
+.li-contacts {list-style-image:url(../image/email_edit.png);}
+.li-map{list-style-image:url(../image/zoom.png);}
+.li-rss{list-style-image:url(../image/feed.png); word-wrap: none;}
+.li-email{list-style-image:url(../images/feed_email.png);}
 
 .site-navigation a{
     text-decoration:none;
@@ -200,7 +196,6 @@ body{
 .main p{
     text-align: justify;
     margin-right: 10px;
-<<<<<<< HEAD
 }
 
 .main-article h2{
@@ -244,32 +239,6 @@ body{
     list-style: none;
     margin: 0;
     padding: 0;
-=======
-}
-
-.main-article h2{
-    color: #CC0000;
-    text-align: center;
-    margin: 0;
-}
-
-.popular{
-    display:flex;
-    justify-content: space-around;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    
-
-
-}
-
-.popular-article{
-
-}
-.popular-article h3{
-   color: rgb(22, 77, 150);
->>>>>>> 8427743d73d1176dabf064c964ccaf62833ef596
 }
 
 .popular-book h3{
@@ -294,7 +263,7 @@ body{
     grid-area: footer;
     background-color: #7D1711;
     font-size: 10px;
-    background-image: url(../img/footer.jpg);
+    background-image: url(../images/footer.jpg);
     height: 70px;
     background-repeat: no-repeat;
     background-position: center;
@@ -387,7 +356,6 @@ body{
     }
     .footer{
         background-image: none;
-<<<<<<< HEAD
     }
     .popular > section{
         width: 100%;
@@ -397,11 +365,6 @@ body{
         font-size: 12px;
         align-self: center;
     }
-=======
-
-    }
-
->>>>>>> 8427743d73d1176dabf064c964ccaf62833ef596
 }
 
 @media screen and (max-width: 560px){
@@ -440,7 +403,6 @@ body{
         display: none;
 
     }
-<<<<<<< HEAD
     .footer{
         background-image: none;
     }
@@ -451,13 +413,6 @@ body{
         text-align: center;
         margin-left: 5px;
         width: 39%;
-=======
-    .main-navigation{
-       justify-content: space-around;
-    }
-    .footer{
-        background-image: none;
->>>>>>> 8427743d73d1176dabf064c964ccaf62833ef596
 
     }
     .wrap-nav-right{
@@ -478,7 +433,7 @@ body{
         ;
         /*font-size: 25px;
         color: rgb(30, 63, 131);
-        background-image: url(../img/house.png);
+        background-image: url(../images/house.png);
         background-repeat: no-repeat;
         background-size: 100%;*/
     }
@@ -519,13 +474,8 @@ body{
     }
     .left-nav{
         display: none;  
-<<<<<<< HEAD
         position:fixed;
         top: 66px;
-=======
-        position: absolute;
-        top: 90px;
->>>>>>> 8427743d73d1176dabf064c964ccaf62833ef596
         right: 0px;
         background: #ffffff;
         width: 75%;
