@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8427743d73d1176dabf064c964ccaf62833ef596
 body{
     margin: 0px 0px 10px 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -196,6 +200,7 @@ body{
 .main p{
     text-align: justify;
     margin-right: 10px;
+<<<<<<< HEAD
 }
 
 .main-article h2{
@@ -239,7 +244,40 @@ body{
     list-style: none;
     margin: 0;
     padding: 0;
+=======
 }
+
+.main-article h2{
+    color: #CC0000;
+    text-align: center;
+    margin: 0;
+}
+
+.popular{
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+
+}
+
+.popular-article{
+
+}
+.popular-article h3{
+   color: rgb(22, 77, 150);
+>>>>>>> 8427743d73d1176dabf064c964ccaf62833ef596
+}
+
+.popular-book h3{
+    color: rgb(22, 77, 150);
+}
+
+
+
 
 .aside{
     grid-area: aside;
@@ -349,6 +387,7 @@ body{
     }
     .footer{
         background-image: none;
+<<<<<<< HEAD
     }
     .popular > section{
         width: 100%;
@@ -358,6 +397,11 @@ body{
         font-size: 12px;
         align-self: center;
     }
+=======
+
+    }
+
+>>>>>>> 8427743d73d1176dabf064c964ccaf62833ef596
 }
 
 @media screen and (max-width: 560px){
@@ -396,6 +440,7 @@ body{
         display: none;
 
     }
+<<<<<<< HEAD
     .footer{
         background-image: none;
     }
@@ -406,6 +451,13 @@ body{
         text-align: center;
         margin-left: 5px;
         width: 39%;
+=======
+    .main-navigation{
+       justify-content: space-around;
+    }
+    .footer{
+        background-image: none;
+>>>>>>> 8427743d73d1176dabf064c964ccaf62833ef596
 
     }
     .wrap-nav-right{
@@ -467,11 +519,16 @@ body{
     }
     .left-nav{
         display: none;  
+<<<<<<< HEAD
         position:fixed;
         top: 66px;
+=======
+        position: absolute;
+        top: 90px;
+>>>>>>> 8427743d73d1176dabf064c964ccaf62833ef596
         right: 0px;
         background: #ffffff;
-        width: 100%;
+        width: 75%;
     }
     
     .market-google{
