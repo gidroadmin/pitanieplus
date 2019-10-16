@@ -71,7 +71,7 @@ body{
 .li-home {list-style-image:url(../images/house.png);}
 .li-contacts {list-style-image:url(../images/email_edit.png);}
 .li-map{list-style-image:url(../images/zoom.png);}
-.li-rss{list-style-image:url(../images/feed.png); word-wrap: none;}
+.li-rss{list-style-image:url(../images/feed.png);}
 .li-email{list-style-image:url(../images/feed_email.png);}
 
 .site-navigation a{
