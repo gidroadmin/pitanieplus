@@ -549,6 +549,7 @@ section li{
         top: 0;
         min-height: 2em;
         box-shadow: 0 6px 4px -4px #b8bec5;
+        position: relative;
     }
     .main-navigation{
         flex-direction: row;
