@@ -461,7 +461,7 @@ section li{
         width: auto;
         display: none;  
         position: absolute;
-        top: 15px;
+        top: 22px;
         left: 0;
         background: #ffffff;
         width: 95%;
@@ -543,9 +543,7 @@ section li{
         /*border: solid 1px #990000;*/
         min-height: 100vh;
     }
-
-
-    
+ 
     .header{
         position: sticky;
         top: 0;
@@ -560,7 +558,7 @@ section li{
     .left-nav{
         display: none;  
         position: absolute;
-        top: 66px;
+        top: 50px;
         right: 0px;
         background: #ffffff;
         width: 100%;
