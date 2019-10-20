@@ -250,7 +250,9 @@ body{
     padding: 0;
 }
 .anons img{
-    margin-right: 8px;   
+    /*margin-right: 8px;*/
+    float:left;
+margin: 4px 10px 2px 0px;   
 }
 
 .end-anons{
