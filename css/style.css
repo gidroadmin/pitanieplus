@@ -244,6 +244,7 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
 .post-info{
     display: flex;
     align-items: center;
@@ -275,9 +276,6 @@ body{
     padding-bottom: 2px;
     font-size: 10px; 
 }
-.end-anons a{
-    font-size: 12px;
-}
 
 .end-anons a{
     font-size: 12px;
@@ -291,6 +289,7 @@ body{
     color: #bb0a0a;
     font-weight: 700;
 }
+
 .post-div{
     border-top: #b8bec5 1px solid;
     border-bottom: #b8bec5 1px solid;
@@ -412,10 +411,6 @@ body{
     text-decoration: underline;
     color: #f7f8f9;
 }
-.nav-footer li{
-    padding-right: 5px;
-
-}
 
 .nav-footer li{
     padding-right: 5px;
@@ -425,6 +420,7 @@ body{
     body{
         margin:0px;
     }
+
     .site-navigation{
         width: auto;  
     }
@@ -521,6 +517,7 @@ body{
         margin: 0 10px 10px 10px;
         padding: 0 10px 0 10px;
     }
+
     .popular > section > ul{
         text-align: center;
     }
@@ -564,6 +561,7 @@ body{
         margin-right: 5px;
         width: 50px;
         justify-content: space-between;
+    }
 
     .menuToggle{
         display: inline-block;
@@ -575,6 +573,7 @@ body{
         display: block;
         font-size: 34px;
     }
+
     .container{
         grid-template-areas: "header"
                             "main"
