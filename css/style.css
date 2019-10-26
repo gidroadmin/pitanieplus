@@ -301,6 +301,7 @@ body{
 .post-div{
     border-top: #b8bec5 1px solid;
     border-bottom: #b8bec5 1px solid;
+    margin-bottom: 15px;
 }
 
 .main p{
@@ -661,6 +662,9 @@ body{
     .main{
     padding-left: 8px;
     } 
+    .bread-crumbs {
+        margin-top: 5px;;
+    }
 }
 /*
 * {box-sizing: border-box;}
