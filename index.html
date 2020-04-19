@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -7,73 +8,56 @@
     <link href="css/style.css" rel="stylesheet">
     <title>Питание. Правильное питание.</title>
 </head>
+
 <body>
     <div class="container">
+        <div class="burger-menu__overlay"></div>
         <header class="header">
-            <h1 class="main-title">Питание. Правильное питание. Здоровый образ жизни. Здоровое питание.</h1>
+            <h1 class="main-title">Главная</h1>
             <nav class="main-navigation">
                 <div class="wrap-nav-left">
-                    <img src="images/favicon.png" alt="Главная" class="menuToggle">
+                    <img src="images/favicon.png" title="" alt="" class="menuToggle">
                     <p class="menuToggle-p">
-                        Pitanie <span >+ </span>
+                        Pitanie <span>+ </span>
                     </p>
                 </div>
                 <ul class="site-navigation">
-                    <li class="li-home"><a href="info.html">Главная</a></li>
-                    <li class="li-contacts"><a href="info.html">Контакты</a></li>
-                    <li class="li-map"><a href="info.html">Карта сайта</a></li>
-                    <li class="li-rss"><a href="info.html">Подписаться на RSS</a></li>
-                    <li class="li-email"><a href="li-info.html">Рассылка по Email</a></li>
+                    <li class="li-home"><a href="https://www.pitanieplus.ru">Главная</a></li>
+                    <li class="li-contacts"><a href="mail.php">Контакты</a></li>
+                    <li class="li-map"><a href="sitemap.php">Карта сайта</a></li>
+                    <li class="li-rss"><a href="https://feeds.feedburner.com/pitanieplus">Подписаться на RSS</a></li>
+                    <li class="li-email"><a
+                            href="https://feedburner.google.com/fb/a/mailverify?uri=pitanieplus&amp;loc=ru_RU">Рассылка
+                            по Email</a></li>
                 </ul>
                 <div class="main-header-logo">
-                    <a href="#">
-                        <img src="images/logo.jpg" class="img" alt="Питание+">
+                    <a href="https://www.pitanieplus.ru">
+                        <img src="images/logo.jpg" class="img" alt="">
                     </a>
                 </div>
-                <div class="logo"><img src="images/img_header.jpg" alt="Питание"></div>
+                <div class="logo"><img src="images/img_header.jpg" alt=""></div>
                 <p class="quote">
                     Когда узнал из чего делаются продукты питания - перестал жрать и начал питаться!
                 </p>
-                  <!--
-                <form class="search">
-                    <input type="text" placeholder="Google поиск..." >
-                    <button type="submit"></button>
-                  </form>
-                
-                <form action="http://www.techgidravlika.ru/search.php" id="cse-search-box" class="search">
-                        <input type="hidden" name="cx" value="partner-pub-0235631323606958:it8rs4-hjzh">
-                        <input type="hidden" name="cof" value="FORID:9">
-                        <input type="hidden" name="ie" value="windows-1251">
-                        <input type="text" name="q" size="20" style="border: 1px solid rgb(126, 157, 185); padding: 2px; 
-                        background: rgb(255, 255, 255) url(&quot;https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png&quot;) 
-                        no-repeat scroll left center; text-indent: 0px;" placeholder="Пользовательский поиск">
-                        <input type="submit" name="sa" value="Поиск">
-                        <input name="siteurl" type="hidden" value="www.techgidravlika.ru/view_post.php?id=1">
-                        <input name="ref" type="hidden" value="www.techgidravlika.ru/view_menu.php?menu=4&amp;page=1">
-                        <input name="ss" type="hidden">
-                    </form>  -->
-                <!--<div class="left-menu-Toggle">&#8801;</div>-->
-
-                <form action="http://www.pitanieplus.ru/search.php" id="cse-search-box">
-                    <div>
-                    <span style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#666666">Поиск по сайту</span>
-                      <input type="hidden" name="cx" value="partner-pub-0235631323606958:rphp8ihrvl2" />
-                      <input type="hidden" name="cof" value="FORID:11" />
-                      <input type="hidden" name="ie" value="windows-1251" />
-                      <input type="text" name="q" size="25" />
-                      <input type="submit" name="sa" value="&#x041f;&#x043e;&#x0438;&#x0441;&#x043a;" />
-                    </div>
-                  </form>
-                  <script type="text/javascript" src="http://www.google.ru/cse/brand?form=cse-search-box&amp;lang=ru"></script>
-
+                <div class="search-wrap">
+                    <form action="https://pitanieplus.ru/search.php" id="cse-search-box">
+                        <input type="hidden" name="cx" value="partner-pub-0235631323606958:rphp8ihrvl2" />
+                        <input type="hidden" name="cof" value="FORID:11" />
+                        <input type="hidden" name="ie" value="windows-1251" />
+                        <input name="q" placeholder="Google поиск..." type="search" autocomplete="off"
+                            class="search-input">
+                        <button type="submit" name="sa" value="&#x041f;&#x043e;&#x0438;&#x0441;&#x043a;"
+                            class="search-button">&#128269;</button>
+                    </form>
+                </div>
                 <div class="wrap-nav-right">
                     <div class="img-search">&#128269;</div>
-                    <div class="left-menu-Toggle">&#8801;</div>
+                    <div class="menu-icon"></div>
                 </div>
             </nav>
             <div class="line">&nbsp;</div>
         </header>
-        
+
         <nav class="left-nav">
             <div class="category-wrap">
                 <h2>Питание</h2>
@@ -114,76 +98,76 @@
             <br>
             <div class="market-google">Google</div>
         </nav>
-        
+
         <main class="main">
             <article class="main-article">
                 <h2 class="art-h1">Питание. Правильное питание. Здоровый образ жизни. Здоровое питание</h2>
-                <p>Сейчас огромное количество людей волнует вопрос 
-                    взаимосвязи питания и здоровья, особенно в развитых 
+                <p>Сейчас огромное количество людей волнует вопрос
+                    взаимосвязи питания и здоровья, особенно в развитых
                     странах, где большая часть населения страдает от болезней,
                     приобретенных в результате неправильного питания.
                 </p>
-                <p>Так, что 
-                    же такое правильное, или рациональное, питание? Правильное, 
-                    рациональное питание – это разнообразное, полноценное 
-                    сбалансированное по витаминам, минералам и другими 
-                    компонентам питание, которое обеспечивает нормальную 
+                <p>Так, что
+                    же такое правильное, или рациональное, питание? Правильное,
+                    рациональное питание – это разнообразное, полноценное
+                    сбалансированное по витаминам, минералам и другими
+                    компонентам питание, которое обеспечивает нормальную
                     жизнедеятельность и высокую работоспособность.
                 </p>
-                <p>Современный 
+                <p>Современный
                     человек может запутаться среди множества диет, систем и школ
-                    питания. Да и врядли новомодная или всеми признанная диета 
-                    может помочь всем людям. Тем не менее, каждый человек в 
-                    состоянии на основе принципов правильного питания сам для 
-                    себя разработать правила рационального питания не утруждая 
-                    себя изматывающими диетами и не впадая в порой оккультные 
-                    системы питания, поддерживать себя в здоровом и бодром 
+                    питания. Да и врядли новомодная или всеми признанная диета
+                    может помочь всем людям. Тем не менее, каждый человек в
+                    состоянии на основе принципов правильного питания сам для
+                    себя разработать правила рационального питания не утруждая
+                    себя изматывающими диетами и не впадая в порой оккультные
+                    системы питания, поддерживать себя в здоровом и бодром
                     состоянии.
                 </p>
-                <p>Однако, чтобы сохранить здоровье одного 
-                    правильного питания будет недостаточно. Для здоровья также 
-                    необходимы следующие составляющие: физические нагрузки и 
+                <p>Однако, чтобы сохранить здоровье одного
+                    правильного питания будет недостаточно. Для здоровья также
+                    необходимы следующие составляющие: физические нагрузки и
                     упражнения, умение отдыхать, отсутствие вредных привычек,
-                    доброжелательные и положительные эмоции. Рациональное, или 
-                    правильное, питание следует рассматривать как одну из 
-                     главных составляющих здорового образа жизни.
+                    доброжелательные и положительные эмоции. Рациональное, или
+                    правильное, питание следует рассматривать как одну из
+                    главных составляющих здорового образа жизни.
                 </p>
-                <p>Чтобы стать 
-                      здоровым нужны собственные усилия: постоянные, длительные, 
-                      иногда – значительные. Благо, что человек столь совершенен, 
-                      что приложив усилия можно вернуть и восстановить здоровье.
+                <p>Чтобы стать
+                    здоровым нужны собственные усилия: постоянные, длительные,
+                    иногда – значительные. Благо, что человек столь совершенен,
+                    что приложив усилия можно вернуть и восстановить здоровье.
                 </p>
             </article>
-            <div class="popular"> 
+            <div class="popular">
                 <section class="popular-article">
                     <h3>Популярные статьи на сайте</h3>
                     <ul>
-                        <li>   
+                        <li>
                             <img src="files/pitanie/belki/norma.jpg" alt="Белки">
                             <a href="#" class="popular-a">Суточная потребность в белках, жирах и углеводах</a>
                         </li>
-                        <li>   
+                        <li>
                             <img src="files/voda/obez/kip.jpg" alt="Белки">
                             <a href="#">Суточная потребность в белках, жирах и углеводах</a>
                         </li>
-                        <li>   
+                        <li>
                             <img src="files/pitanie/belki/norma.jpg" alt="Белки">
-                                <a href="#">Суточная потребность в белках, жирах и углеводах</a>
-                            </li>
+                            <a href="#">Суточная потребность в белках, жирах и углеводах</a>
+                        </li>
                     </ul>
                 </section>
                 <section class="popular-book">
                     <h3>Популярные книги на сайте</h3>
                     <ul>
-                        <li>   
+                        <li>
                             <img src="files/voda/svoystva/voda.jpg" alt="Белки">
                             <a href="#">Суточная потребность в белках, жирах и углеводах</a>
                         </li>
-                        <li>   
+                        <li>
                             <img src="files/pitanie/belki/norma.jpg" alt="Белки">
                             <a href="#">Суточная потребность в белках, жирах и углеводах</a>
                         </li>
-                        <li>   
+                        <li>
                             <img src="files/prigotovlenie/osnovy/tushenie.jpg" alt="Белки">
                             <a href="#">Суточная потребность в белках, жирах и углеводах</a>
                         </li>
@@ -206,11 +190,42 @@
                     <li><a href="#">Рассылка по Email</a></li>
                 </ul>
             </nav>
-            <p class="all_rights">&copy;2009-2019 PitaniePlus.ru. При использовании материалов сайта активная ссылка на сайт обязательна!</p>
+            <p class="all_rights">&copy;2009-2019 PitaniePlus.ru. При использовании материалов сайта активная ссылка на
+                сайт обязательна!</p>
         </footer>
-        
+
     </div>
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/script.js"></script>
+    <script>
+        // let btn = document.querySelector('button');
+        let menu = document.querySelector('.left-menu-Toggle');
+        // console.log(btn);
+        console.log(menu);
+
+        let leftNav = document.querySelector('.left-nav');
+        console.log(leftNav);
+
+        let categoryWrap = document.querySelector('.category-wrap');
+        console.log(categoryWrap);
+
+        // let icon = document.querySelector('.burger');
+        // console.log(icon);
+
+        // function burgerMenu(icon) {
+        //     icon.classList.toggle("change");
+        // }
+        //menu.onclick = document.querySelector('.left-menu-Toggle').classList.add('border-left-menu');
+        menu.onclick = function () {
+            menu.classList.toggle('border-left-menu');
+            leftNav.classList.toggle('visible');
+            categoryWrap.classList.add('visible2');
+
+        };
+        // icon.onclick = function () {
+        //     bar.classList.toggle("change");
+        // }
+    </script>
 </body>
+
 </html>
